@@ -13,7 +13,7 @@ import androidx.room.RoomDatabase
  *
  * Version must be incremented each time the database schema is changed
  */
-@Database(entities = [WeatherEntity::class, FavouritesEntity::class], version = 9)
+@Database(entities = [WeatherEntity::class, FavouritesEntity::class], version = 11)
 abstract class WeatherDatabase : RoomDatabase() {
 
     /**
